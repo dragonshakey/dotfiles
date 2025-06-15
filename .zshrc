@@ -2,7 +2,12 @@ export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
 
-blindkey -v
+#vim
+bindkey -v
+bindkey 'qq' vi-cmd-mode
+bindkey -M vicmd 'L' end-of-line
+bindkey -M vicmd 'H' beginning-of-line
+bindkey '^V' yank
 
 # Fixing zsh history problems on multiple terminals
 setopt inc_append_history
@@ -40,7 +45,8 @@ bindkey "^[[F" end-of-line
 bindkey "^[[3~" delete-char
 
 #aliases
-alias c='cd'
+alias e="nvim"
+alias c="cd"
 alias l="ls"
 alias la="ls -a"
 alias lla="ls -lah"
