@@ -46,10 +46,6 @@ bindkey "^[[3~" delete-char
 
 #aliases
 alias e="nvim"
-alias c="cd"
-alias l="ls"
-alias la="ls -a"
-alias lla="ls -lah"
 alias p="python"
 alias p3="python3"
 alias cls="clear"
