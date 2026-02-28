@@ -58,3 +58,12 @@ export VISUAL="nvim"
 
 #add functions
 fpath+=${ZDORDIR:-~}/.zsh_functions
+
+#oh my zsh
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="jonathan"
+plugins=(
+	git
+)
+
+source $ZSH/oh-my-zsh.sh
