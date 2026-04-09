@@ -1,5 +1,7 @@
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..|clear)"
 export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
+export SCRIPTS="$HOME/.config/scripts"
+export ETCCONFS="$HOME/.config/etcconfs"
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
 
@@ -60,7 +62,7 @@ export VISUAL="nvim"
 fpath+=${ZDORDIR:-~}/.zsh_functions
 
 #oh my zsh
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/Programs/.oh-my-zsh"
 ZSH_THEME="jonathan"
 plugins=(
 	git
