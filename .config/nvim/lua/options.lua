@@ -14,4 +14,3 @@ vim.opt.clipboard:append('unnamedplus')
 -- Setting up auto complete
 -- vim.opt_local.autocomplete = true
 vim.opt.completeopt = "fuzzy,popup,menuone,noselect"
-
