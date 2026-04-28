@@ -8,4 +8,11 @@ mkdir Programs
 
 cd $HOME/Programs
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cd $HOME
+
+cd $HOME/GitRepos
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+sudo makepkg -si
+
+cd
