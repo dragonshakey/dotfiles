@@ -1,3 +1,4 @@
+export ZDOTDIR="$HOME/.config/zsh"
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..|clear)"
 export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 export SCRIPTS="$HOME/.config/scripts"
