@@ -22,6 +22,7 @@ bspc config gapless_monocle      true
 
 sxhkd &
 
-bspc rule -a firefox desktop=^2
+bspc rule -a librewolf desktop=^2
+bspc rule -a google-chrome desktop=^2
 
 polybar mybar &
