@@ -31,9 +31,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 # Get bash's compgen
 autoload -Uz compinit
-compinit
-autoload -Uz bashcompinit
-bashcompinit
+compinit -C -d $ZDOTDIR/zcompdump
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)

@@ -7,10 +7,12 @@ sudo pacman -S `cat $HOME/packages.txt`
 sudo rm /etc/locale.conf
 sudo cp $ETCCONFS/locale.conf /etc
 
-#clone/download programs
+#making dirs
 mkdir GitRepos
 mkdir Programs
+mkdir .config/zsh
 
+#clone/download programs
 #Install oh my zsh
 cd $HOME/Programs
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
