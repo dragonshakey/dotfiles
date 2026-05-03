@@ -47,13 +47,6 @@ bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 bindkey "^[[3~" delete-char
 
-#aliases
-alias e="nvim"
-alias p="python"
-alias p3="python3"
-alias cls="clear"
-alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
-
 #set editor
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -69,3 +62,12 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+#aliases
+alias e="nvim"
+alias p="python"
+alias p3="python3"
+alias cls="clear"
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+alias ls="lsd -a --group-directories-first"
+alias ll="lsd -la --group-directories-first"
