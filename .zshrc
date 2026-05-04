@@ -1,6 +1,5 @@
-export ZDOTDIR="$HOME/.config/zsh"
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..|clear)"
-export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
+export HISTFILE="$HOME/.config/zsh/.zhistory"    # History filepath
 export SCRIPTS="$HOME/.config/scripts"
 export ETCCONFS="$HOME/.config/etcconfs"
 export HISTSIZE=10000                   # Maximum events for internal history
@@ -31,7 +30,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 # Get bash's compgen
 autoload -Uz compinit
-compinit -C -d $ZDOTDIR/zcompdump
+compinit -C -d $HOME/.config/zsh/zcompdump
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
