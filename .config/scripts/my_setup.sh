@@ -4,8 +4,10 @@
 sudo pacman -S `cat $HOME/packages.txt`
 
 #copy etc configs to /etc
-sudo rm /etc/locale.conf
-sudo cp $ETCCONFS/locale.conf /etc
+for file in "$ETCCONFS"/*
+do
+	sudo cp "$file" /etc
+done
 
 #making dirs
 mkdir GitRepos
@@ -29,3 +31,15 @@ yay -S librewolf-bin
 
 #clean up home
 rm .bashrc .bash_logout .bash_profile .bash_history
+
+#start services
+
+#tlp for power management
+sudo systemctl start tlp.service
+sudo systemctl enable tlp.service
+sudo systemctl mask systemd-rfkill.service
+sudo systemctl mask systemd-rfkill.socket
+
+#start chrony
+sudo systemctl start chronyd.service
+sudo systemctl enable chronyd.service
