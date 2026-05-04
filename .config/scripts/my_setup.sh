@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 #install pacman packages
 sudo pacman -S `cat $HOME/packages.txt`

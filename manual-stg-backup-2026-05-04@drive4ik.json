@@ -1,0 +1,347 @@
+{
+    "version": "5.3.2",
+    "groups": [
+        {
+            "id": 2,
+            "title": "General",
+            "iconColor": "hsla(0, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://blindtyping.com/lessons/qwerty/3/6",
+                    "title": "Typing Lessons – Blind typing",
+                    "id": 4
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 1,
+            "title": "D&D",
+            "iconColor": "hsla(250, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://wheelofnames.com/",
+                    "title": "D&D items",
+                    "id": 5
+                },
+                {
+                    "url": "https://dnd5e.wikidot.com/wondrous-items:sending-stones",
+                    "title": "Sending Stones - DND 5th Edition",
+                    "id": 6
+                },
+                {
+                    "url": "https://dnd5e.wikidot.com/wondrous-items",
+                    "title": "Magic Items - DND 5th Edition",
+                    "id": 7
+                },
+                {
+                    "url": "https://5e.tools/dmscreen.html",
+                    "title": "DM Screen - 5etools",
+                    "id": 8
+                },
+                {
+                    "url": "https://app.kanka.io/w/275774/journals/create",
+                    "title": "403 Permission Denied",
+                    "id": 9
+                },
+                {
+                    "url": "https://improvedinitiative.app/e/",
+                    "title": "Combat Tracker - Improved Initiative",
+                    "id": 10
+                },
+                {
+                    "url": "https://www.fantasynamegenerators.com/",
+                    "title": "Fantasy name generators. Names for all your fantasy characters.",
+                    "id": 11
+                },
+                {
+                    "url": "https://tabletopaudio.com/",
+                    "title": "Tabletop Audio - Ambiences and Music for Tabletop Role Playing Games",
+                    "id": 12
+                },
+                {
+                    "url": "https://www.tabletoprpgmusic.com/",
+                    "title": "Free DnD Music | Tabletop RPG Music",
+                    "id": 13
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 4,
+            "title": "Gaming",
+            "iconColor": "hsla(40, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1846108258",
+                    "title": "Steam Community :: Guide :: Devil Daggers V3 Strategy Guide (2019)",
+                    "id": 14
+                },
+                {
+                    "url": "https://sekiroshadowsdietwice.wiki.fextralife.com/Fountainhead+Palace",
+                    "title": "Fountainhead Palace | Sekiro Shadows Die Twice Wiki",
+                    "id": 15
+                },
+                {
+                    "url": "https://u.gg/lol/champions/brand/build/",
+                    "title": "Brand Build with Highest Winrate - LoL Runes, Items, and Skill Order",
+                    "id": 16
+                },
+                {
+                    "url": "https://u.gg/lol/champions/amumu/build/",
+                    "title": "Amumu Build with Highest Winrate - LoL Runes, Items, and Skill Order",
+                    "id": 17
+                },
+                {
+                    "url": "https://u.gg/lol/champions/masteryi/build",
+                    "title": "Master Yi Build with Highest Winrate - LoL Runes, Items, and Skill Order",
+                    "id": 18
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 5,
+            "title": "My Cody Stuff",
+            "iconColor": "hsla(140, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://vim.rtorr.com/",
+                    "title": "Vim Cheat Sheet",
+                    "id": 3,
+                    "favIconUrl": "data:image/png;base64,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"
+                },
+                {
+                    "url": "https://github.com/dragonshakey/dotfiles/tree/main/.config/etcconfs",
+                    "title": "dotfiles/.config/etcconfs at main · dragonshakey/dotfiles · GitHub",
+                    "id": 19,
+                    "favIconUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNiAwQzcuMTYgMCAwIDcuMTYgMCAxNkMwIDIzLjA4IDQuNTggMjkuMDYgMTAuOTQgMzEuMThDMTEuNzQgMzEuMzIgMTIuMDQgMzAuODQgMTIuMDQgMzAuNDJDMTIuMDQgMzAuMDQgMTIuMDIgMjguNzggMTIuMDIgMjcuNDRDOCAyOC4xOCA2Ljk2IDI2LjQ2IDYuNjQgMjUuNTZDNi40NiAyNS4xIDUuNjggMjMuNjggNSAyMy4zQzQuNDQgMjMgMy42NCAyMi4yNiA0Ljk4IDIyLjI0QzYuMjQgMjIuMjIgNy4xNCAyMy40IDcuNDQgMjMuODhDOC44OCAyNi4zIDExLjE4IDI1LjYyIDEyLjEgMjUuMkMxMi4yNCAyNC4xNiAxMi42NiAyMy40NiAxMy4xMiAyMy4wNkM5LjU2IDIyLjY2IDUuODQgMjEuMjggNS44NCAxNS4xNkM1Ljg0IDEzLjQyIDYuNDYgMTEuOTggNy40OCAxMC44NkM3LjMyIDEwLjQ2IDYuNzYgOC44MiA3LjY0IDYuNjJDNy42NCA2LjYyIDguOTggNi4yIDEyLjA0IDguMjZDMTMuMzIgNy45IDE0LjY4IDcuNzIgMTYuMDQgNy43MkMxNy40IDcuNzIgMTguNzYgNy45IDIwLjA0IDguMjZDMjMuMSA2LjE4IDI0LjQ0IDYuNjIgMjQuNDQgNi42MkMyNS4zMiA4LjgyIDI0Ljc2IDEwLjQ2IDI0LjYgMTAuODZDMjUuNjIgMTEuOTggMjYuMjQgMTMuNCAyNi4yNCAxNS4xNkMyNi4yNCAyMS4zIDIyLjUgMjIuNjYgMTguOTQgMjMuMDZDMTkuNTIgMjMuNTYgMjAuMDIgMjQuNTIgMjAuMDIgMjYuMDJDMjAuMDIgMjguMTYgMjAgMjkuODggMjAgMzAuNDJDMjAgMzAuODQgMjAuMyAzMS4zNCAyMS4xIDMxLjE4QzI3LjQyIDI5LjA2IDMyIDIzLjA2IDMyIDE2QzMyIDcuMTYgMjQuODQgMCAxNiAwVjBaIiBmaWxsPSIjMjQyOTJFIi8+Cjwvc3ZnPgo="
+                },
+                {
+                    "url": "https://github.com/GioGioWasTaken/Dotfiles/blob/main/.config/bspwm/sxhkdrc",
+                    "title": "Dotfiles/.config/bspwm/sxhkdrc at main · GioGioWasTaken/Dotfiles · GitHub",
+                    "id": 20,
+                    "favIconUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNiAwQzcuMTYgMCAwIDcuMTYgMCAxNkMwIDIzLjA4IDQuNTggMjkuMDYgMTAuOTQgMzEuMThDMTEuNzQgMzEuMzIgMTIuMDQgMzAuODQgMTIuMDQgMzAuNDJDMTIuMDQgMzAuMDQgMTIuMDIgMjguNzggMTIuMDIgMjcuNDRDOCAyOC4xOCA2Ljk2IDI2LjQ2IDYuNjQgMjUuNTZDNi40NiAyNS4xIDUuNjggMjMuNjggNSAyMy4zQzQuNDQgMjMgMy42NCAyMi4yNiA0Ljk4IDIyLjI0QzYuMjQgMjIuMjIgNy4xNCAyMy40IDcuNDQgMjMuODhDOC44OCAyNi4zIDExLjE4IDI1LjYyIDEyLjEgMjUuMkMxMi4yNCAyNC4xNiAxMi42NiAyMy40NiAxMy4xMiAyMy4wNkM5LjU2IDIyLjY2IDUuODQgMjEuMjggNS44NCAxNS4xNkM1Ljg0IDEzLjQyIDYuNDYgMTEuOTggNy40OCAxMC44NkM3LjMyIDEwLjQ2IDYuNzYgOC44MiA3LjY0IDYuNjJDNy42NCA2LjYyIDguOTggNi4yIDEyLjA0IDguMjZDMTMuMzIgNy45IDE0LjY4IDcuNzIgMTYuMDQgNy43MkMxNy40IDcuNzIgMTguNzYgNy45IDIwLjA0IDguMjZDMjMuMSA2LjE4IDI0LjQ0IDYuNjIgMjQuNDQgNi42MkMyNS4zMiA4LjgyIDI0Ljc2IDEwLjQ2IDI0LjYgMTAuODZDMjUuNjIgMTEuOTggMjYuMjQgMTMuNCAyNi4yNCAxNS4xNkMyNi4yNCAyMS4zIDIyLjUgMjIuNjYgMTguOTQgMjMuMDZDMTkuNTIgMjMuNTYgMjAuMDIgMjQuNTIgMjAuMDIgMjYuMDJDMjAuMDIgMjguMTYgMjAgMjkuODggMjAgMzAuNDJDMjAgMzAuODQgMjAuMyAzMS4zNCAyMS4xIDMxLjE4QzI3LjQyIDI5LjA2IDMyIDIzLjA2IDMyIDE2QzMyIDcuMTYgMjQuODQgMCAxNiAwVjBaIiBmaWxsPSIjMjQyOTJFIi8+Cjwvc3ZnPgo="
+                },
+                {
+                    "url": "https://wiki.archlinux.org/title/General_recommendations#Input_devices",
+                    "title": "General recommendations - ArchWiki",
+                    "id": 21,
+                    "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMElEQVQ4T5WTTUhUURTHz33vOo6jM2Jfb9RqiJnQmJrJIMpFK10FQSBTLqxNheVMbYqobGetIlr4bEgqDCPBIIg+qI3QqoIIfH5RPmMgp8aKDMyXzHv3nu6zmcGPGcOzuv/DPb/zP/eDwArh7RreXSbLVD+57XWhbWRFgKr1eIpk18fW4KFVA2rvja01DGvSIRFas85d86zJ9ykfpKCD2jsjlzjDqwwRfOVOdaB56+lVAep6Rm9zDsdsgLtYmt7pc/nj+3zTSyF5HdQ/+HAQGFcYkAhybLAh1aWO608igXP/BUT60fEL9QnOcaMF+JMjqWCckxIqzazxuP0P91d+XwhZ5qCxX293yXDF4gi/0xzmGAdhABwyEaPQzheRwJmCgD33xz2KS0r8mDUrPs+kIc1E5YJwChflpSUB7WjgWza9yMGW7uEO0+SXTdF9Pgh5TBDnhDqcK5Cla6m2HeeXAZS4vgGYMSH8lv2rhaepWPiAvVY6tV4AbMnkDSeh/kQ0mJrXWZJX1VREjGa1REjr11io29aVN4daOOO9gooEcFSUvUzFQmdzgE23hvxpk48BQlFuZEobpk4FB2xdFR+pY5b1PjOWTiU8kmwLv8kBvOpgnzjp5ozFhOjwSC7GG8kT4Uk75707vh5n/1wUdpsQcLMYz5AIHP8SDfeRKnVwl3gw7wjCcyRyx1Qs+HbR0S8R1apWLy6nXaQbqSRvJ0qXdoEivErGQgW/bD6gDeIE9v4FTa7YrFufPVIAAAAASUVORK5CYII="
+                },
+                {
+                    "url": "https://wiki.archlinux.org/title/Pacman#See_also",
+                    "title": "pacman - ArchWiki",
+                    "id": 26,
+                    "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMElEQVQ4T5WTTUhUURTHz33vOo6jM2Jfb9RqiJnQmJrJIMpFK10FQSBTLqxNheVMbYqobGetIlr4bEgqDCPBIIg+qI3QqoIIfH5RPmMgp8aKDMyXzHv3nu6zmcGPGcOzuv/DPb/zP/eDwArh7RreXSbLVD+57XWhbWRFgKr1eIpk18fW4KFVA2rvja01DGvSIRFas85d86zJ9ykfpKCD2jsjlzjDqwwRfOVOdaB56+lVAep6Rm9zDsdsgLtYmt7pc/nj+3zTSyF5HdQ/+HAQGFcYkAhybLAh1aWO608igXP/BUT60fEL9QnOcaMF+JMjqWCckxIqzazxuP0P91d+XwhZ5qCxX293yXDF4gi/0xzmGAdhABwyEaPQzheRwJmCgD33xz2KS0r8mDUrPs+kIc1E5YJwChflpSUB7WjgWza9yMGW7uEO0+SXTdF9Pgh5TBDnhDqcK5Cla6m2HeeXAZS4vgGYMSH8lv2rhaepWPiAvVY6tV4AbMnkDSeh/kQ0mJrXWZJX1VREjGa1REjr11io29aVN4daOOO9gooEcFSUvUzFQmdzgE23hvxpk48BQlFuZEobpk4FB2xdFR+pY5b1PjOWTiU8kmwLv8kBvOpgnzjp5ozFhOjwSC7GG8kT4Uk75707vh5n/1wUdpsQcLMYz5AIHP8SDfeRKnVwl3gw7wjCcyRyx1Qs+HbR0S8R1apWLy6nXaQbqSRvJ0qXdoEivErGQgW/bD6gDeIE9v4FTa7YrFufPVIAAAAASUVORK5CYII="
+                },
+                {
+                    "url": "moz-extension://7098990f-84be-413a-9496-2525a4192f2d/options/options.html",
+                    "title": "Settings",
+                    "id": 31,
+                    "favIconUrl": "data:image/svg+xml;base64,PCEtLSBUaGlzIFNvdXJjZSBDb2RlIEZvcm0gaXMgc3ViamVjdCB0byB0aGUgdGVybXMgb2YgdGhlIE1vemlsbGEgUHVibGljCiAgIC0gTGljZW5zZSwgdi4gMi4wLiBJZiBhIGNvcHkgb2YgdGhlIE1QTCB3YXMgbm90IGRpc3RyaWJ1dGVkIHdpdGggdGhpcwogICAtIGZpbGUsIFlvdSBjYW4gb2J0YWluIG9uZSBhdCBodHRwOi8vbW96aWxsYS5vcmcvTVBMLzIuMC8uIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogICAgPHBhdGggZmlsbD0iY29udGV4dC1maWxsIiBmaWxsLW9wYWNpdHk9ImNvbnRleHQtZmlsbC1vcGFjaXR5IiBkPSJNMTUgN2gtMi4xYTQuOTY3IDQuOTY3IDAgMCAwLS43MzItMS43NTNsMS40OS0xLjQ5YTEgMSAwIDAgMC0xLjQxNC0xLjQxNGwtMS40OSAxLjQ5QTQuOTY4IDQuOTY4IDAgMCAwIDkgMy4xVjFhMSAxIDAgMCAwLTIgMHYyLjFhNC45NjggNC45NjggMCAwIDAtMS43NTMuNzMybC0xLjQ5LTEuNDlhMSAxIDAgMCAwLTEuNDE0IDEuNDE1bDEuNDkgMS40OUE0Ljk2NyA0Ljk2NyAwIDAgMCAzLjEgN0gxYTEgMSAwIDAgMCAwIDJoMi4xYTQuOTY4IDQuOTY4IDAgMCAwIC43MzcgMS43NjNjLS4wMTQuMDEzLS4wMzIuMDE3LS4wNDUuMDNsLTEuNDUgMS40NWExIDEgMCAxIDAgMS40MTQgMS40MTRsMS40NS0xLjQ1Yy4wMTMtLjAxMy4wMTgtLjAzMS4wMy0uMDQ1QTQuOTY4IDQuOTY4IDAgMCAwIDcgMTIuOVYxNWExIDEgMCAwIDAgMiAwdi0yLjFhNC45NjggNC45NjggMCAwIDAgMS43NTMtLjczMmwxLjQ5IDEuNDlhMSAxIDAgMCAwIDEuNDE0LTEuNDE0bC0xLjQ5LTEuNDlBNC45NjcgNC45NjcgMCAwIDAgMTIuOSA5SDE1YTEgMSAwIDAgMCAwLTJ6TTUgOGEzIDMgMCAxIDEgMyAzIDMgMyAwIDAgMS0zLTN6IiAvPgo8L3N2Zz4K"
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 6,
+            "title": "School",
+            "iconColor": "hsla(320, 100%, 50%, 1)",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": true,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        },
+        {
+            "id": 3,
+            "title": "Army Stuff",
+            "iconColor": "#783f04",
+            "iconUrl": null,
+            "iconViewType": "main-squares",
+            "tabs": [
+                {
+                    "url": "https://mail.google.com/mail/u/0/#inbox",
+                    "title": "Inbox - shaked.kaplan8652@gmail.com - Gmail",
+                    "id": 27
+                },
+                {
+                    "url": "about:newtab",
+                    "title": "New Tab",
+                    "id": 28
+                }
+            ],
+            "isArchive": false,
+            "discardTabsAfterHide": false,
+            "discardExcludeAudioTabs": false,
+            "prependTitleToWindow": false,
+            "exportToBookmarksWhenAutoBackup": false,
+            "leaveBookmarksOfClosedTabs": false,
+            "newTabContainer": "firefox-default",
+            "ifDifferentContainerReOpen": false,
+            "excludeContainersForReOpen": [],
+            "isSticky": false,
+            "catchTabContainers": [],
+            "catchTabRules": "",
+            "moveToGroupIfNoneCatchTabRules": null,
+            "muteTabsWhenGroupCloseAndRestoreWhenOpen": false,
+            "showTabAfterMovingItIntoThisGroup": false,
+            "showOnlyActiveTabAfterMovingItIntoThisGroup": false,
+            "showNotificationAfterMovingTabIntoThisGroup": true,
+            "bookmarkId": null
+        }
+    ],
+    "lastCreatedGroupPosition": 6,
+    "defaultGroupProps": {},
+    "closePopupAfterChangeGroup": true,
+    "closePopupAfterSelectTab": false,
+    "openGroupAfterChange": false,
+    "alwaysAskNewGroupName": true,
+    "createNewGroupWhenOpenNewWindow": false,
+    "openManageGroupsInTab": true,
+    "showConfirmDialogBeforeGroupArchiving": true,
+    "showConfirmDialogBeforeGroupDelete": true,
+    "showNotificationAfterGroupDelete": true,
+    "showContextMenuOnTabs": true,
+    "showContextMenuOnLinks": true,
+    "defaultBookmarksParent": "toolbar_____",
+    "showExtendGroupsPopupWithActiveTabs": false,
+    "showTabsWithThumbnailsInManageGroups": false,
+    "fullPopupWidth": false,
+    "temporaryContainerTitle": "⌚Temporary Container",
+    "contextMenuTab": [
+        "open-in-new-window",
+        "reload",
+        "discard",
+        "remove",
+        "update-thumbnail",
+        "set-group-icon",
+        "move-tab-to-group"
+    ],
+    "contextMenuGroup": [
+        "open-in-new-window",
+        "sort-asc",
+        "sort-desc",
+        "discard",
+        "discard-other",
+        "export-to-bookmarks",
+        "unload",
+        "archive",
+        "rename",
+        "reload-all-tabs"
+    ],
+    "autoBackupEnable": false,
+    "autoBackupLastBackupTimeStamp": 1724684017,
+    "autoBackupIntervalKey": "days",
+    "autoBackupIntervalValue": 2,
+    "autoBackupIncludeTabThumbnails": true,
+    "autoBackupIncludeTabFavIcons": true,
+    "autoBackupFolderName": "STG-backups-FF-150.0.1-1",
+    "autoBackupByDayIndex": true,
+    "theme": "auto",
+    "hotkeys": [
+        {
+            "value": "Ctrl+Backquote",
+            "action": "load-next-group",
+            "groupId": 0
+        },
+        {
+            "value": "Ctrl+Shift+Backquote",
+            "action": "load-prev-group",
+            "groupId": 0
+        }
+    ]
+}
