@@ -6,7 +6,11 @@ sudo pacman -S `cat $HOME/packages.txt`
 #copy etc configs to /etc
 for file in "$ETCCONFS"/*
 do
-	sudo cp "$file" /etc
+	if [[ -f $file ]]
+		sudo cp "$file" /etc
+	elif [[ -d $file ]]
+		sudo cp -r "$file" /etc
+	fi
 done
 
 #making dirs

@@ -63,6 +63,7 @@ source $ZSH/oh-my-zsh.sh
 
 #aliases
 alias e="nvim"
+alias se="sudoedit"
 alias p="python"
 alias p3="python3"
 alias cls="clear"
