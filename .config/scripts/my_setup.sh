@@ -4,11 +4,10 @@
 sudo pacman -S `cat $HOME/packages.txt`
 
 #copy etc configs to /etc
-for file in "$ETCCONFS"/*
-do
-	if [[ -f $file ]]
+for file in "$ETCCONFS"/*; do
+	if [[ -f $file ]]; then
 		sudo cp "$file" /etc
-	elif [[ -d $file ]]
+	elif [[ -d $file ]]; then
 		sudo cp -r "$file" /etc
 	fi
 done
