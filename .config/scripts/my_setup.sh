@@ -12,6 +12,8 @@ for file in "$ETCCONFS"/*; do
 	fi
 done
 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
 #making dirs
 mkdir GitRepos
 mkdir Programs
@@ -46,3 +48,6 @@ sudo systemctl mask systemd-rfkill.socket
 #start chrony
 sudo systemctl start chronyd.service
 sudo systemctl enable chronyd.service
+
+
+echo "reboot is required"
