@@ -1,3 +1,4 @@
+#EXPORTS
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..|clear)"
 export HISTFILE="$HOME/.config/zsh/.zhistory"    # History filepath
 export SCRIPTS="$HOME/.config/scripts"
@@ -5,12 +6,16 @@ export ETCCONFS="$HOME/.config/etcconfs"
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
 
+
+
 #vim
 bindkey -v
 bindkey 'qq' vi-cmd-mode
 bindkey -M vicmd 'L' end-of-line
 bindkey -M vicmd 'H' beginning-of-line
 bindkey '^V' yank
+
+
 
 # Fixing zsh history problems on multiple terminals
 setopt inc_append_history
@@ -34,6 +39,19 @@ for dump in ~/.config/zsh/zcompdump(N.mh+24); do
   compinit -d ~/.config/zsh/zcompdump
 done
 compinit -C -d $HOME/.config/zsh/zcompdump
+
+
+
+#dots while loading
+expand-or-complete-with-dots() {
+  echo -n "\e[31m…\e[0m"
+  zle expand-or-complete
+  zle redisplay
+}
+zle -N expand-or-complete-with-dots
+bindkey "^I" expand-or-complete-with-dots
+
+
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
