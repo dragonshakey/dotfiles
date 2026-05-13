@@ -1,7 +1,12 @@
 #! /bin/bash
 
+if [[ $SHELL != "/usr/bin/zsh" ]]; then
+	echo "must us zsh"
+	exit 1
+fi
+
 #install pacman packages
-sudo pacman -S `cat $HOME/packages.txt`
+sudo pacman -S `cat $SCRIPTS/packages.txt`
 
 #copy etc configs to /etc
 for file in "$ETCCONFS"/*; do
@@ -32,7 +37,7 @@ cd yay
 makepkg -si
 
 cd
-yay -S librewolf-bin
+yay -S `cat $SCRIPTS/aur_packages.txt`
 
 #clean up home
 rm .bashrc .bash_logout .bash_profile .bash_history
@@ -51,3 +56,4 @@ sudo systemctl enable chronyd.service
 
 
 echo "reboot is required"
+exit 0
