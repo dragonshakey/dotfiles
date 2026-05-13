@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /usr/bin/env bash
 
 #terminate processes
 processes=("sxhkd" "polybar")
@@ -11,7 +11,7 @@ for process in "${processes[@]}"; do
 done
 
 
-bspc monitor -d '1' '2' '3' '4' '5' '6'
+bspc monitor -d '1' '2' '3' '4' '5'
 
 bspc config border_width         2
 bspc config window_gap          12
