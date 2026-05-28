@@ -1,6 +1,7 @@
 7zip
 abseil-cpp
 alacritty
+alsa-utils
 autorandr
 base
 base-devel
@@ -33,6 +34,7 @@ man-db
 man-pages
 neovim
 networkmanager
+noto-fonts-emoji
 openjpeg2
 openssh
 otf-cascadia-code
