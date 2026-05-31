@@ -14,3 +14,9 @@ vim.opt.clipboard:append('unnamedplus')
 -- Setting up auto complete
 -- vim.opt_local.autocomplete = true
 vim.opt.completeopt = "fuzzy,popup,menuone,noselect"
+
+-- Make <tab> made of spaces
+-- make <tab> add 4 spaces
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
