@@ -2,7 +2,8 @@
 size = 12
 
 [font.normal]
-family = "cascadia mono NF"
+family = "JetBrainsMono NF"
+style = "Bold"
 
 [cursor.style]
 blinking = "on"

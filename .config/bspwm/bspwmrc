@@ -25,4 +25,4 @@ sxhkd &
 bspc rule -a librewolf desktop=^2
 bspc rule -a google-chrome desktop=^2
 
-polybar mybar &
+polybar mybar 2>/tmp/polybar.log &
