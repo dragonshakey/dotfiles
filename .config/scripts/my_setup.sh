@@ -16,6 +16,7 @@ for file in "$ETCCONFS"/*; do
 		sudo cp -r "$file" /etc
 	fi
 done
+sudo touch /etc/alsa/state-daemon.conf
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 

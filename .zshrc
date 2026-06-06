@@ -5,7 +5,7 @@ export SCRIPTS="$HOME/.config/scripts"
 export ETCCONFS="$HOME/.config/etcconfs"
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
-
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
 
 #vim
@@ -63,8 +63,8 @@ fpath+=${ZDORDIR:-~}/.zsh_functions
 
 #oh my zsh
 export ZSH="$HOME/Programs/.oh-my-zsh"
-ZSH_THEME="jonathan"
-#ZSH_THEME="robbyrussell"
+#ZSH_THEME="jonathan"
+ZSH_THEME="robbyrussell"
 plugins=(
 	git
 )
@@ -80,3 +80,6 @@ alias cls="clear"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias ls="lsd -a --group-directories-first"
 alias ll="lsd -la --group-directories-first"
+
+
+eval "$(starship init zsh)"
