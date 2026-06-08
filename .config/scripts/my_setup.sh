@@ -55,6 +55,9 @@ sudo systemctl mask systemd-rfkill.socket
 sudo systemctl start chronyd.service
 sudo systemctl enable chronyd.service
 
+#start ly
+sudo systemctl enable ly@tty2.service
+sudo systemctl disable getty@tty2.service
 
 echo "reboot is required"
 exit 0

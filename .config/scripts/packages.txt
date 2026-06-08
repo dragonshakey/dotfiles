@@ -30,6 +30,7 @@ linux-zen
 linux-zen-headers
 lsd
 lua-language-server
+ly
 man-db
 man-pages
 neovim
@@ -43,14 +44,17 @@ python
 reflector
 rofi
 sdl3
+starship
 sxhkd
 terminus-font
 tlp
 tmux
 ttf-jetbrains-mono-nerd
+ttf-noto-nerd
 vim
 vulkan-nouveau
 xclip
+xdotool
 xf86-input-vmmouse
 xf86-video-nouveau
 xorg-server
