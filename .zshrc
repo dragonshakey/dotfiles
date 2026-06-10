@@ -35,8 +35,8 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 # Get bash's compgen
 autoload -Uz compinit
-for dump in ~/.config/zsh/zcompdump(N.mh+24); do
-  compinit -d ~/.config/zsh/zcompdump
+for dump in $HOME/.config/zsh/zcompdump(N.mh+24); do
+  compinit -d $HOME/.config/zsh/zcompdump
 done
 compinit -C -d $HOME/.config/zsh/zcompdump
 

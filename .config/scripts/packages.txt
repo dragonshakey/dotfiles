@@ -13,6 +13,7 @@ cmake
 dhcpcd
 dosfstools
 efibootmgr
+firewalld
 fzf
 git
 github-cli

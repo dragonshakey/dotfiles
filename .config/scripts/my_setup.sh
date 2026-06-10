@@ -55,6 +55,10 @@ sudo systemctl mask systemd-rfkill.socket
 sudo systemctl start chronyd.service
 sudo systemctl enable chronyd.service
 
+#start firewall
+sudo systemctl start firewalld.service
+sudo systemctl enable firewalld.service
+
 #start ly
 sudo systemctl enable ly@tty2.service
 sudo systemctl disable getty@tty2.service
