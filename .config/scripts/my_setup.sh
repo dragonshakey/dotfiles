@@ -34,11 +34,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 cd $HOME/GitRepos
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+#cd yay
+#makepkg -si
 
-cd
-yay -S `cat $SCRIPTS/aur_packages.txt`
+#cd
+#yay -S `cat $SCRIPTS/aur_packages.txt`
 
 #clean up home
 rm .bashrc .bash_logout .bash_profile .bash_history
