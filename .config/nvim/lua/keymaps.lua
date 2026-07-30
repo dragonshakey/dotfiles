@@ -17,14 +17,6 @@ vim.api.nvim_set_keymap('i', 'qq', '<Esc>', { noremap = true})
 vim.api.nvim_set_keymap('v', 'qq', '<Esc>', { noremap = true})
 vim.api.nvim_set_keymap('t', 'qq', '<Esc>', { noremap = true})
 
--- Close parenthesese and quotes automatically when opening them
-vim.api.nvim_set_keymap('i', '(', '()<Esc>i', { noremap = true })
-vim.api.nvim_set_keymap('i', '[', '[]<Esc>i', { noremap = true })
-vim.api.nvim_set_keymap('i', '{', '{}<Esc>i', { noremap = true })
-vim.api.nvim_set_keymap('i', '<', '<><Esc>i', { noremap = true })
-vim.api.nvim_set_keymap('i', '\'', '\'\'<Esc>i', { noremap = true })
-vim.api.nvim_set_keymap('i', '\"', '\"\"<Esc>i', { noremap = true })
-
 -- Set 'grd' to goto definition
 vim.keymap.set('n', 'grd', function() vim.lsp.buf.definition() end, {
 	desc = "[g]oto [r]eference [d]efinition",
