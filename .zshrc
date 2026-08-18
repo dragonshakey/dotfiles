@@ -72,6 +72,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 #aliases
+alias sudo="sudo "
 alias e="nvim"
 alias se="sudoedit"
 alias p="python"
