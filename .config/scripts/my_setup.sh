@@ -1,7 +1,7 @@
 #! /bin/bash
 
 if [[ $SHELL != "/usr/bin/zsh" ]]; then
-	echo "must us zsh"
+	echo "must use zsh"
 	exit 1
 fi
 
