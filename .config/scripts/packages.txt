@@ -19,9 +19,11 @@ git
 github-cli
 grub
 intel-ucode
+kernel-headers-musl
 libbluray
 libopenmpt
 libpwquality
+librewolf
 libxcursor
 libxkbcommon
 linux
@@ -41,7 +43,6 @@ openjpeg2
 openssh
 otf-cascadia-code
 polybar
-python
 reflector
 rofi
 sdl3

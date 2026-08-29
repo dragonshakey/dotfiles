@@ -5,6 +5,9 @@ mkdir GitRepos
 mkdir Programs
 mkdir .config/zsh
 
+#give instructions
+echo "choose number 2 in both choices"
+
 #install pacman packages
 sudo pacman -S `cat $HOME/.config/scripts/packages.txt`
 
