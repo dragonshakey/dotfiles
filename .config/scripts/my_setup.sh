@@ -1,15 +1,16 @@
 #! /bin/bash
 
-if [[ $SHELL != "/usr/bin/zsh" ]]; then
-	echo "must use zsh"
-	exit 1
-fi
+#making dirs
+mkdir GitRepos
+mkdir Programs
 
 #install pacman packages
-sudo pacman -S `cat $SCRIPTS/packages.txt`
+sudo pacman -S `cat $HOME/.config/scripts/packages.txt`
+
+chsh -s `which zsh`
 
 #copy etc configs to /etc
-for file in "$ETCCONFS"/*; do
+for file in "$HOME/.config/etcconfs"/*; do
 	if [[ -f $file ]]; then
 		sudo cp "$file" /etc
 	elif [[ -d $file ]]; then
@@ -19,11 +20,6 @@ done
 sudo touch /etc/alsa/state-daemon.conf
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
-
-#making dirs
-mkdir GitRepos
-mkdir Programs
-mkdir .config/zsh
 
 #clone/download programs
 #Install oh my zsh
