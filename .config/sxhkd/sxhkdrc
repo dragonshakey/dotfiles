@@ -3,11 +3,11 @@
 #
 
 # terminal emulator
-super + Return
+super + @Return
 	alacritty
 
 # program launcher
-super + @space
+super + @Space
 	rofi -show combi
 
 super + @e
