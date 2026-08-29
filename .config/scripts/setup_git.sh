@@ -16,3 +16,7 @@ git config --global gpg.format ssh
 git config --global user.signingkey $HOME/.ssh/id_ed25519.pub
 git config --global user.name dragonshakey
 git config --global user.email dragonshakey@gmail.com
+
+#setup repository config
+dotfiles config push.autoSetupRemote true
+dotfiles config remote.origin.url git@github.com:dragonshakey/dotfiles.git
