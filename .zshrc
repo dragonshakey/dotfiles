@@ -9,11 +9,11 @@ export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
 
 #vim
-bindkey -v
-bindkey 'qq' vi-cmd-mode
-bindkey -M vicmd 'L' end-of-line
-bindkey -M vicmd 'H' beginning-of-line
-bindkey '^V' yank
+# bindkey -v
+# bindkey 'qq' vi-cmd-mode
+# bindkey -M vicmd 'L' end-of-line
+# bindkey -M vicmd 'H' beginning-of-line
+# bindkey '^V' yank
 
 
 
