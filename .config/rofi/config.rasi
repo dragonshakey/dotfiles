@@ -2,4 +2,4 @@ configuration {
 	modi: "window,drun,combi";
 	combi-modi: "window,drun";
 }
-@theme "purple"
+@theme "catppuccin-default"
